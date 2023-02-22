@@ -1,0 +1,85 @@
+.nadpis {
+   font-size: 35px;
+text-align: center;
+}
+.popis{
+   font-size: 25px;
+}
+.texty {
+/*    font-size: 25px;
+
+   line-height: 45px; */
+   margin-top: 50px;
+   right: 10%;
+   margin-left: 15%;
+   margin-right: 15%;
+}
+
+.chata {
+   border-bottom: 1px solid black;
+   padding-bottom: 20px;
+}
+.containerIcon{
+display: grid;
+grid-template-columns: auto auto auto;
+z-index: 1;
+
+}
+.icony{
+   display: grid;
+   position: relative;
+   text-align: center;
+   text-decoration: none;
+   font-size: 1.1rem;
+   
+   grid-gap: 0px;
+   padding: 0px;
+}
+.icona{
+   font-size: 40px;
+   
+}
+.text{
+   font-size: 1.3rem;
+}
+
+@media screen and (max-width: 900px) {
+   .containerIcon{
+      display: grid;
+      grid-template-columns: auto auto;
+      z-index: 1;
+      
+      }
+   .nadpis {
+      font-size: 35px;
+      text-align: center;
+display: none;
+   }
+   .texty {
+      margin-top: 20px;
+      right: 10%;
+      margin-left: 10%;
+      margin-right: 10%;
+   }
+   .popis{
+      text-align:justify;
+      line-height: 25px;
+      font-size: 18px;
+}
+ .uvodos{
+    padding-top:25px;
+    
+ } 
+ .icona{
+   font-size: 50px;
+   
+} 
+.text{
+   height: 35px;
+   
+   font-size: 1rem;
+}
+.icony{
+   padding-right: 5%;
+}
+}

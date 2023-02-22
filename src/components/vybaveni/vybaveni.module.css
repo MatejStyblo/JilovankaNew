@@ -1,0 +1,45 @@
+.aktivity {
+    padding-top: 50px;
+    margin-left: 5%;
+    margin-right: 10%;
+ 
+    font-size: 25px;
+ 
+    line-height: 50px;
+ }
+ .first {
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+ }
+ .nadpis {
+    font-size: 30px;
+ }
+ .h3{
+     margin-top: 20px;
+ }      .nastenka{
+   height: 200px;
+ }
+ @media screen and (max-width: 900px) {
+   .aktivity {
+      padding-top: 5px;
+      margin-left: 5%;
+      margin-right: 5%;
+   
+      font-size: 18px;
+   
+      line-height: 40px;
+   }
+   .first {
+      border-bottom: none;
+      padding-bottom: 0px;
+   }
+   .nadpis {
+    text-align: center;
+      font-size: 30px;
+   }
+   .h3{
+       margin-top: 0;
+       text-align: center;
+   }   
+
+}

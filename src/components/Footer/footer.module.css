@@ -1,0 +1,64 @@
+.mainFooter {
+   padding-top: 20px;
+   background: rgba(239, 239, 239, 0.8);
+    display: grid;
+   justify-content: center;  
+    position: relative;
+}
+.col{
+   display: inline-block;
+   position: relative;
+}
+.content{
+   font-size: 1.4rem;
+}
+.header{
+   font-size: 2rem;
+   font-weight: bold;
+}
+
+.foot{
+   text-align: center;
+}
+
+.mailto{
+   text-decoration: none;
+   }
+   .mapa {
+      margin-bottom: 30px;
+      position: relative;
+      display:inline-block;
+      width: 60vw;
+      height: 40vh;
+      text-align: center;
+   }
+   @media screen and (max-width: 900px) {
+      .mapa {
+         margin-bottom: 30px;
+         position: relative;
+         display:inline-block;
+  width: auto;
+  height: 100vw;
+}
+.mainFooter{
+         padding-right: 10%;
+         padding-left: 10%;
+
+      }
+      .col{
+         display: inline-block;
+         position: relative;
+      
+      }
+      .content{
+         text-align: center;
+         font-size: 1.4rem;
+      }
+      .header{
+         text-align: center;
+         font-size: 2rem;
+         font-weight: bold;
+      }
+   
+   }
+   

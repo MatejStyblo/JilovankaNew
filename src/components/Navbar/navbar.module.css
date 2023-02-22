@@ -1,0 +1,112 @@
+nav {
+   position: relative;
+   height: 110px;
+
+   display: flex;
+   z-index: 1;
+   text-align: right;
+   font: 1, 2rem;
+background-color: rgba(245, 245, 245, 0.9);
+
+}
+.forMobileDiv{
+   display: none;
+}
+.menuIcon {
+   display: none;
+}
+.logo {
+   position: relative;
+   width: 150px;
+
+}
+.list {
+   display: grid;
+   position: relative;
+   grid-template-columns: repeat(8  , auto);
+   grid-gap: 15px;
+   list-style: none;
+   text-align: right;
+  
+   text-decoration: none;
+   font-size: 1.1rem;
+justify-content: end;
+align-items: center;
+right:5%
+}
+.list li Link {
+   text-decoration: none;
+   list-style-type: none;
+}
+.list li {
+   list-style-type: none;
+   padding: 10px;
+
+}
+
+@media screen and (max-width: 900px) {
+   .forMobileDiv{
+      max-width: 100%;
+      position: relative;
+         display:contents;
+
+   }
+   .forMobile{
+      position: absolute;
+      right:30%;
+     
+   }
+.logoMobile{
+      width: 120px;
+      margin-left: auto;
+
+   }
+   
+   nav {
+      position: absolute;
+      width: 100%;
+      padding: 0 !important;
+      height: 70px;
+   }
+   .logo {
+      display: none;
+   }
+
+
+   .list {
+      margin-top: 10px;
+      margin-bottom: 10px;
+   text-align: center;
+    font-size: 22px;
+     position: relative;
+      display: inline-block;
+      color: #fff;
+      text-decoration: none;
+      padding: 0;
+      justify-content: center;
+align-items: center;
+right:0%
+
+   }
+   .list li Link {
+      text-decoration: none;
+      list-style-type: none;
+      
+   }
+   .list li {
+      list-style-type: none;
+      padding: 0;
+
+   }
+   .list li Link {
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color:black;
+   }
+   .list li Link:hover {
+      text-decoration: none;
+      color: black;
+   }
+
+}

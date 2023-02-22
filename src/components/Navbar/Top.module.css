@@ -1,0 +1,11 @@
+.logo{
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+
+    .logo{
+        display: grid;
+        width: 120px;
+    }
+}
